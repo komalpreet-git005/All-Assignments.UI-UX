@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Event - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header></header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="home-content">
+
+    <h1>Welcome to Annual College Fest</h1>
+
+    <div class="box">
+        <p>Join us for an exciting event filled with cultural shows, competitions, games, and more!</p>
+    </div>
+
+    <h2>Event Highlights</h2>
+
+    <!-- FLEXBOX FOR CONTENT -->
+    <div class="flex-row">
+        <div class="box">
+            Music Night • Dance • DJ • Bands
+        </div>
+        <div class="box">
+            Coding Contest • Robotics • Tech Fair
+        </div>
+        <div class="box">
+            Sports Meet • Marathon • Cricket
+        </div>
+    </div>
+
+    <h2>Watch Last Year's Highlights</h2>
+
+    <!-- VIDEO EMBEDDED -->
+    <div class="highlight-video">
+        <video width="60%" controls>
+            <source src="highlights.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</section>
+
+</body>
+</html>
